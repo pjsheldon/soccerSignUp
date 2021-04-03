@@ -1,0 +1,72 @@
+
+
+/*body style*/
+body {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*H1 Style*/
+#header > h1 {
+	text-align: center;
+}
+
+/* sinup style */
+.signUp {
+	margin: auto;
+	width: 40%;
+	padding: 30px;
+
+}
+
+p {
+	font-weight: bold;
+	padding: 20px;
+	margin: auto;
+	width: 40%;
+}
+
+/*nav stlye*/
+.nav {
+	width: 300px;
+	height: 350px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+}
+
+a {
+	display: block;
+	position: relative;
+	text-decoration: none;
+	color: #fff;
+	margin-top: 40px;
+	background-color: #9f98;
+	width: 145px;
+	padding: 10px;
+	left: -170px;
+	transition: all 0.5s;
+}
+
+	a:hover{left: 1px;}
+
+	a:nth-child(2){
+		background: #78fde563;}
+
+div.content input {
+	text-align: center;
+}
+
+.label {
+	margin: auto;
+	padding: 10px;
+
+}
+
+/* footer style */ 
+#footer {
+	text-align: center;
+}
